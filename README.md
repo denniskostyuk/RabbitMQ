@@ -31,7 +31,7 @@ $ pip install pika
 ![Скрин3](https://github.com/denniskostyuk/RabbitMQ/blob/main/task_22.png)
 ![Скрин4](https://github.com/denniskostyuk/RabbitMQ/blob/main/task_23.png)
 
-Хочу обратить внимание, что файл consumer.py не работал до тех пор, пока я не заменил строку
+Хочу обратить внимание, что файл consumer.py не работал (выводилась ошибка) до тех пор, пока я не заменил строку
 channel.basic_consume(callback, queue='hello', no_ack=True)
 на
 channel.basic_consume('hello', callback, auto_ack=True)
