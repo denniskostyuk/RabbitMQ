@@ -25,7 +25,7 @@ $ pip install pika
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название очереди и отправляемое сообщение.
 
 ### Решение:
-Запуск consumer.py :
+Запуск producer.py :
 ![Скрин2](https://github.com/denniskostyuk/RabbitMQ/blob/main/task_21.png)
 Запуск consumer.py :
 ![Скрин3](https://github.com/denniskostyuk/RabbitMQ/blob/main/task_22.png)
