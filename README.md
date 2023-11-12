@@ -44,6 +44,7 @@ $ cat /etc/hosts
 192.168.0.148 test2
 
 Машины пингуются.
+/var/lib/rabbitmq/.erlang.cookie - одинаковые
 
 При вводе на test2 команды rabbitmqctl join_cluster test1 происходит вот такая ошибка:
 
