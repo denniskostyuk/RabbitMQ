@@ -39,8 +39,11 @@ channel.basic_consume('hello', callback, auto_ack=True)
 ## Задание 3. Подготовка HA кластера
 
 В файлах /etc/hosts на 2-х машинах прописаны:
+
 $ cat /etc/hosts
+
 192.168.0.168 test1
+
 192.168.0.148 test2
 
 Машины пингуются.
